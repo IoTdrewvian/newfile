@@ -1,7 +1,6 @@
 /**
  * IMPORTANT: Add your package below. Package name can be found in the project's AndroidManifest.xml file.
  * This is the package name our example uses:
- *
  * package com.example.android.justjava;
  *
  */
@@ -28,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * This method is called when the order button is clicked.
      */
-    public void submitOrder1(View view) {
+    public void submitOrder(View view) {
         int quantity =6;
         display(quantity);
         displayPrice(quantity * 5);
